@@ -1,0 +1,44 @@
+:root{
+    --white:#FEFAF6;
+    --black:#111111;
+    --beige:#fff5e8;
+}
+.navbar,.navbar a{
+    /* background-color: transparent !important; */
+    color: var(--black) !important;
+}
+.hero-header{
+    position: relative;
+    color: #111111;
+    height: 100vh;
+}
+.hero-header h1{
+    font-family: "NewhouseDTPro-Regular";
+    font-size: 100px;
+    line-height: 1;
+    font-weight: 600;
+    margin: auto;
+    color: var(--black);
+    max-width: 600px;
+}
+spline-viewer{
+    position: absolute;
+    left: 0;
+}
+.about{
+    /* background-color: var(--beige); */
+    color: var(--black) !important;
+}
+.about .row{
+    /* gap: 1rem; */
+}
+.about img{
+    border-radius: 30px;
+}
+.about .review{
+    margin-block: 3rem !important;
+    padding-top: 2rem;
+}
+.about a,.btn{
+    border-radius: 100vh !important;
+}
